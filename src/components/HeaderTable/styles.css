@@ -1,0 +1,41 @@
+#header-table {
+    background: #417acf;
+    width: max(362px, 100%);
+    height: 160px;
+    display: flex;
+    align-items: center;
+    padding: 0 1% 0 1.5%;
+    justify-content: space-between;
+}
+
+#header-table h1 {
+    color: var(--primary);
+}
+
+#header-table .adicionar {
+    border-radius: 4px;
+    height: 40px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: var(--primary);
+    font-weight: 500;
+    font-size: 14px;
+    padding: 8px 50px;
+    background: var(--green);
+    transition: all .3s;
+}
+
+#header-table .adicionar:hover {
+    background: #00a85d;
+}
+
+#header-table .adicionar span {
+    font-size: 18px;
+    margin-left: 5px;  
+}
+
+@media screen and (max-width: 370px) {
+    #header-table .adicionar {
+        padding: 5px 30px;
+    }
+}
